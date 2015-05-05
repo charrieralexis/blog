@@ -1,0 +1,5 @@
+# .htaccess
+
+RewriteBase /blog/
+RewriteEngine On
+RewriteRule article/([0-9]+) article_details.php?id=$1

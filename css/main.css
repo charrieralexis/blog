@@ -1,0 +1,47 @@
+
+html, body, ul {
+    font: 14px Calibri;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.center {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.right {
+    float: right;
+}
+
+#main { 
+    background: #555;
+}
+#main ul {
+    list-style: none;
+}
+#main ul li {
+    display: inline-block;
+}
+#main ul li a {
+    color: #CCC;
+    display: block;
+    padding: 10px;
+}
+#main ul li a:hover {
+    background: #333;
+    color: #FFF;
+}
+#main ul li a:focus {
+    background: gold;
+    color: #000;
+}
+
+h1 {
+    color: #E87E04;
+}
